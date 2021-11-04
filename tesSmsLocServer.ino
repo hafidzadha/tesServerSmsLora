@@ -72,7 +72,7 @@ void SendMessage(String lati, String longi) {
 //        delay(1000);
         SIM900A.println("AT+CMGF=1\r");
         delay(1000);
-        SIM900A.println("AT+CMGS=\"+6287786637545\"\r");
+        SIM900A.println("AT+CMGS=\"+62XXXXXXXXXX\"\r");
         delay(1000);
         //The text of the message to be sent.
 //        SIM900A.print("Latitude :");
